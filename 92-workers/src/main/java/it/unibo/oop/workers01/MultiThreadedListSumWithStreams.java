@@ -16,8 +16,8 @@ public final class MultiThreadedListSumWithStreams implements SumList {
      * @param nthread
      *            no. of thread performing the sum.
      */
-    public MultiThreadedListSumWithStreams(final int nthread) {
-        this.nthread = nthread;
+    public MultiThreadedListSumWithStreams(final int n) {
+        this.nthread = n;
     }
 
     private static class Worker extends Thread {

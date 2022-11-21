@@ -3,7 +3,9 @@ plugins {
     application
 }
 
+
 val mainClass: String by project
+
 
 application {
     // The following allows to run with: ./gradlew -PmainClass=it.unibo.oop.MyMainClass run
